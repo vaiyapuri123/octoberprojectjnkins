@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7550889549,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on adactin page",
+            "match": {
+              "location": "StepdefinitionClass.user_is_on_adactin_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T18:57:37.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6425777414,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_Class.beforeexecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 181003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_Class.beforeexecution1()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To verify both valid",
+        "description": "",
+        "id": "to-validate-login-funtionality-in-adactin;to-verify-both-valid",
+        "after": [
+          {
+            "result": {
+              "duration": 1040727034,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_Class.afterexecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005811683,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the  valid Username and valid Password",
+            "match": {
+              "location": "StepdefinitionClass.user_enter_the_valid_Username_and_valid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Vaiyapuri12",
+                  "7708993200"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11424750176,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is click  on login both valid",
+            "match": {
+              "location": "StepdefinitionClass.user_is_click_on_login_both_valid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unit"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login funtionality in adactin",
+    "description": "",
+    "id": "to-validate-login-funtionality-in-adactin",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Login.feature",
+    "tags": []
+  }
+]
